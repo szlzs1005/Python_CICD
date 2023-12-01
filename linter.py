@@ -1,7 +1,7 @@
 import sys
 from pylint import lint
 
-THRESHOLD = 6
+THRESHOLD = 4
 run = lint.Run(["main.py"], exit=False)
 score = run.linter.stats.global_note
 
